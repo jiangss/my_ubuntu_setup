@@ -1,1 +1,5 @@
-# my_ubuntu_setup
+## Pre-installation:
+* sublime
+* install git
+
+## Install Packages
