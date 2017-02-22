@@ -11,8 +11,9 @@ sudo apt-get install -y tmux openssl grep htop
 
 # install python packages
 sudo apt-get install -y python-setuptools python-dev build-essential
+sudo apt-get install -y python-pip libmysqlclient-dev
 sudo easy_install pip
-sudo pip install scipy numpy nose ipython pandas scikit-learn nltk matplotlib patsy statsmodels ggplot
+sudo pip install scipy numpy nose ipython pandas scikit-learn nltk matplotlib patsy statsmodels ggplot MySQL-python
 
 # install docker
 sudo apt-get install -y linux-image-extra-$(uname -r) linux-image-extra-virtual
